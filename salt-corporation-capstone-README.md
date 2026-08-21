@@ -25,7 +25,7 @@ With a clean sheet in place, I built pivot tables in two layers. The first laid 
 - Training hours average 42 a year company-wide, and directors, the group most likely to shape team culture, receive the least of it at 40 hours, and clerks receive the most at 45
 
 [Link to the workbook: https://github.com/Jesica-akeyo/DataLadder_HR_Analysis_Capstone_Project/blob/36c79c2112242433814115d75e910628a2e58241/HR_data%20Project%20Analysis.xlsx ]
-[Link to the presentation deck: ]
+[Link to the presentation deck: https://github.com/Jesica-akeyo/DataLadder_HR_Analysis_Capstone_Project/blob/05bedb5793eda53823f87f362aa815761ce35d3b/SALT%20CORPORATION%20HR%20ANALYSIS.pptx ]
 
 ## Why this connects to data integrity work
 
