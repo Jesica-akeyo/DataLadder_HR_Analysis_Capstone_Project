@@ -2,14 +2,14 @@
 
 ## The question behind the work
 
-A dataset that looks ready for analysis rarely is, and the real value of an analysis often sits in the cleaning step hidden behind the final chart. This project started as the capstone for a Certificate in Data Analysis, working with an HR dataset built for a fictional company called Salt Corporation. The dataset held a thousand employee records collected between 2018 and 2020, across five departments and five roles, and the actual assignment was treating every one of those records with the scrutiny a real HR or finance team gives payroll and retention numbers.
+ This project is the capstone for the Data Ladder Data Analysis Mentorship program, working with an HR dataset built for a fictional company called Salt Corporation. The dataset held a thousand employee records collected between 2018 and 2020, across five departments and five roles, and the actual assignment was treating every one of those records with the scrutiny a real HR or finance team gives payroll and retention numbers.
 
 ## What I did
 
-- Salary values arrived as a mix of numbers and spelled-out amounts like "sixty thousand," alongside missing entries recorded as blank cells or "NAN" text, so I converted every text value into a number and filled the missing entries using the average salary for the matching department and position
+- Salary values had a mix of numbers and spelled-out amounts like "sixty thousand," alongside missing entries recorded as blank cells or "NAN" text, so I converted every text value into a number and filled the missing entries using the average salary for the matching department and position
 - Age carried text entries like "thirty" alongside empty cells, so I rebuilt the entire column with a formula that calculates age directly from birth year, keeping the figure accurate as the reference year moves forward
 - Department names carried mixed capitalization, "finance" sitting beside "FINANCE," so I standardized every entry into one consistent category using text functions and targeted logic for the codes that needed extra handling
-- Joining dates arrived in several formats at once, so I extracted the day, month, and year from each entry separately and rebuilt every date into one uniform format
+- Joining dates had several formats at once, so I extracted the day, month, and year from each entry separately and rebuilt every date into one uniform format
 - Missing email addresses got reconstructed directly from each employee's first name, last name, and the company's domain, giving every record a working, correctly formatted address
 - Benefits enrollment came recorded as "Yes," "YES," "Y," "no," and blank cells, so I built a clean three-way column that separated a confirmed yes, a confirmed no, and a genuine unknown, since a blank cell carries a different meaning from an explicit no
 
